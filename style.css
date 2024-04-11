@@ -8,14 +8,13 @@
 }
 
 body {
-    background-color: #222;
     height: 100vh;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg , #00feba, #5b548a);
+    
 }
 .weather-app {
     background: url(./bg.jpg) center no-repeat white;
@@ -25,6 +24,7 @@ body {
     margin: 30px auto;
     padding: 30px;
     border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 5px 5px 5px;
 }
 .about-text{
     font-size: 12px;
