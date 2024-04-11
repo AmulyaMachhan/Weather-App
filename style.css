@@ -8,13 +8,13 @@
 }
 
 body {
+    background: none;
     height: 100vh;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;    
 }
 .weather-app {
     background: url(./bg.jpg) center no-repeat white;
